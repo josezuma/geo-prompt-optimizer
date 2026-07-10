@@ -4,7 +4,7 @@
   <p><a href=LICENSE><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt=License></a>
   <a href=https://github.com/josezuma/geo-prompt-optimizer/actions/workflows/ci.yml><img src="https://github.com/josezuma/geo-prompt-optimizer/actions/workflows/ci.yml/badge.svg" alt=CI></a></p>
   <p>by <a href=https://brandvirality.com>BrandVirality</a> — <strong>SaaS for AI visibility.</strong><br>
-  <strong>Author:</strong> <a href=https://github.com/josezuma>Jose Zuma</a></p>
+  <strong>Author:</strong> <a href=https://github.com/josezuma>Jose Zuma — Expert in AI Visibility</a></p>
 </div>
 
 ---
