@@ -1,0 +1,8 @@
+{
+  "name": "geo-prompt-optimizer",
+  "version": "1.0.0",
+  "description": "CLI to rewrite prompts for maximum brand citation in LLM responses",
+  "bin": {"geo-prompt-optimizer": "bin/cli.js"},
+  "license": "MIT",
+  "repository": {"url": "https://github.com/josezuma/geo-prompt-optimizer"}
+}
