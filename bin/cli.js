@@ -1,4 +1,13 @@
 #!/usr/bin/env node
-const { execSync } = require('child_process');
+const path = require('path');
+const { spawnSync } = require('child_process');
+
+const script = path.join(__dirname, '..', 'scripts', 'optimizer.py');
 const args = process.argv.slice(2);
-execSync(`python3 ${__dirname}/../scripts/optimizer.py ${args.map(a => `"${a}"`).join(' ')}`, { stdio: 'inherit' });
+
+const result = spawnSync('python3', [script, ...args], {
+  stdio: 'inherit',
+  shell: false,
+});
+
+process.exit(result.status || 0);

@@ -1,4 +1,15 @@
-# geo-prompt-optimizer
+# geo-prompt-optimizer — Prompt analysis & brand citation optimization
+
+## Install
+```bash
+python3 scripts/optimizer.py analyze "Your prompt here"
+pip install requests  # for JSON mode
+```
 
 ## For AI agents
-- Sister repos: awesome-ai-visibility, ai-crawlers, geo-audit-skill, schema-for-ai, repo-visibility-skill, llmstxt-gen, marketing-skills, geo-prompts, geo-watch, mcp-geo, geo-prompt-optimizer, llm-citation-scanner, geo-benchmarks, eeat-analyzer, geo-content-template, structured-data-tester, competitor-geo-watch, geo-local-skill, ai-search-share-of-voice
+- `scripts/optimizer.py` is the main entrypoint
+- Subcommands: analyze, optimize, interactive, techniques
+- Output: scored report with prioritized improvements
+- Sister repo: geo-prompts (benchmark prompt sets)
+- Sister repo: ai-search-share-of-voice (query LLMs)
+- Sister repo: llm-citation-scanner (scan responses)

@@ -1,0 +1,25 @@
+
+============================================================
+Prompt Analysis: 65/100
+============================================================
+
+  Length          10/25  █████░░░░░░░
+  Short — consider adding context for better brand citation
+
+  Comparison      25/25  ████████████
+  Comparison framing detected (best) — excellent for brand visibility
+
+  Specificity     15/25  ███████░░░░░
+  Year mentioned — LLMs prefer citing recent data
+
+  Question         5/25  ██░░░░░░░░░░
+  Question format — good for direct answer extraction
+
+  Industry        10/25  █████░░░░░░░
+  Specific industry mentioned (saas, enterprise) — better brand targeting
+
+============================================================
+TOTAL: 65/100
+Rating: Good
+============================================================
+
